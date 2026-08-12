@@ -1,2 +1,2 @@
- redis:8-alpine
+redis:8-alpine
 postgres:18-alpine
