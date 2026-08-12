@@ -1,2 +1,1 @@
-redis:8-alpine
-postgres:18-alpine
+daitcl/mihomo:latest
