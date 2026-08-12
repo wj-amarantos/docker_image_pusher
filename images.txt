@@ -1,1 +1,1 @@
-daitcl/mihomo:latest
+nginx:alpine
