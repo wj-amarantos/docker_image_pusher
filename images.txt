@@ -1,1 +1,1 @@
-ghcr.io/alliottech/codex-queue-bot:latest
+openilink/openilink-hub:latest
