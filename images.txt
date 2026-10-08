@@ -1,1 +1,1 @@
-1panel/maxkb
+nginx:1.29-alpine
