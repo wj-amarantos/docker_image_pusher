@@ -1,1 +1,1 @@
-nginx:1.29-alpine
+eclipse-temurin:17-jre-jammy
