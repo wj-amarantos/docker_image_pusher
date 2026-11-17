@@ -18,6 +18,17 @@ jobs:
     name: Pull
     runs-on: ubuntu-latest
     steps:
+    - name: Clean unused runner files
+      run: |
+        echo "Before cleanup"
+        df -hT
+
+        sudo rm -rf /usr/local/lib/android
+        sudo rm -rf /opt/ghc
+        sudo rm -rf /usr/share/dotnet
+
+        echo "After cleanup"
+        df -hT
     - name: Before freeing up disk space
       run: |
         echo "Before freeing up disk space"
